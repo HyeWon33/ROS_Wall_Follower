@@ -70,6 +70,5 @@ def main():
                                   lambda scan: driver.lds_callback(scan))
     rospy.spin()
 
-
 if __name__ == "__main__":
     main()
